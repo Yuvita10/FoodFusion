@@ -114,7 +114,7 @@ nav .fa{
    width: 100%;
    height: 640px ;
    text-align: center;
-   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/header-img.jpeg);
+   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/gallery-img/header-img.jpeg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -368,7 +368,7 @@ footer {
   width: 100%;
   height: 500px;
   text-align: center;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/burger.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/gallery-img/burger.webp);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -706,7 +706,7 @@ footer {
    width: 100%;
    height: 440px ;
    text-align: center;
-   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/img8.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(gallery-img/img8.jpg);
    background-position: center;
    background-size: cover;
    margin-bottom: 30px;
