@@ -1,0 +1,344 @@
+@media(max-width:700px)
+{
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+      nav h1{
+        font-size: 2rem;
+        margin-top: 10px;
+      }
+     .nav-links ul li{
+            display: block;
+     }
+    
+     .nav-links {
+         position: fixed; 
+         background: antiquewhite;
+         height: 100vh;
+         width: 200px;
+         top: 0;
+         right: 0; 
+         transform: translateX(200px); 
+         text-align: left;
+         z-index: 2;
+         transition: transform 1s; 
+     }
+
+     .nav-links.show {
+         transform: translateX(0); 
+    }
+     .nav-links ul li .button{
+        position: absolute;
+        top: 0;
+        right: -4px;
+        text-align: left;
+        z-index: 2;
+        width: 160px;
+        margin-right: 20px;
+     }
+     .nav-links ul li .button a{
+        padding-left: 50px;
+        text-align: center;
+     }
+     nav .fa{
+        display: block;
+        color: #000;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 2rem;
+     }
+     nav .nav-links .fa-times{
+        float: right;
+        font-size: 1.5rem;
+     }
+     .nav-links ul{
+        padding-top:50px ;
+        padding-left: 8px;
+     }
+    .header-img{
+        height: 500px;
+    }
+    .welcome #wel{
+        font-size: 2.3rem;
+    }
+    .welcome p{
+        font-size: 1.2rem;
+    }
+    .welcome1 h2{
+        font-size: 2rem ;
+        margin-top: 5px;
+    }
+    .welcome1 p {
+        font-size: 1.1rem;
+    }
+     
+    .Explore-Menu{
+        width: 150px;
+        height: 150px;
+    }
+    .Explore-Menu a{
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 150px;
+    }
+
+   .about {
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center; 
+    height: 800px; 
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .about img {
+    width: 100%; 
+    height: 400px; 
+    margin-bottom: 20px;
+  }
+
+  .abt {
+    position: static;
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+
+  .abt h1 {
+    font-size: 2rem; 
+  }
+
+  .abt p {
+    font-size: 1.1rem; 
+  }
+
+  .abt .about-chef {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+  }
+   .abt .about-chef a{
+        font-size: 1.3rem;
+        line-height: 150px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .reservation{
+        width: 100%;
+        height: 700px;
+        /* border: 2px solid black; */
+        position: relative;
+        bottom: 90px;
+
+    }
+    .reservation h1{
+        font-size: 2rem;
+        position: relative;
+        bottom: 40px;
+    }
+    .reservation p{
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 40px;
+    }
+    .container{
+        position: relative;
+        bottom: 100px;
+        height: 570px;
+        width: 400px;
+    }
+    .form-group {
+       
+       display: flex;
+       flex-direction: column;
+      justify-content: space-between;
+    }
+    .form-field{
+       
+        width: 100%;
+    } 
+    input[type="text"], input[type="tel"], input[type="date"], input[type="time"], select {
+     width: 100%;
+     height: 40px;
+     /* padding-bottom: 30px; */
+     margin-bottom: 10px;
+   
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    .footer-section {
+    
+     width: 100%;
+     margin: 20px 0;
+     text-align: center;
+    }
+     .footer-section h2{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .footer-section p{
+        font-size: 1rem;
+    }
+    .footer-section a{
+        font-size: 1rem;
+    } 
+    .footer-bottom{
+        font-size: 1rem;
+    }
+
+    /* contact */
+    .contact1 {
+     margin: 20px auto;
+     padding: 10px;
+  }
+
+  #contact-form h2{
+    font-size: 1.7rem;
+  }
+  #contact-form p{
+    font-size: 1.1rem;
+  }
+
+   #contact-form {
+    max-width: 500px;
+    padding: 10px;
+  }
+  .contact-info h2{
+    font-size: 1.5rem;
+  }
+  .contact-info p{
+    font-size: 1.1rem;
+  }
+  .hours h2{
+    font-size: 1.5rem;
+  }
+  .hours p{
+    font-size: 1.1rem;
+  }
+   label{
+    font-size: 1rem;
+   }
+  .name-group1 {
+    flex-direction: column;
+  }
+  .first-name1, .last-name1 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    
+  }
+
+  /* menu */
+
+   .menu1 h1{
+    font-size: 2.2rem;
+   }
+   .menu1 p{
+    font-size: 1.5rem;
+   }
+  .menu-container {
+    grid-template-columns: 200px 200px;
+    gap: 5px;
+    
+  }
+   .m1{
+    position: relative;
+    left: 120px;
+   }
+   .hero-btn1{
+    left: 140px;
+   }
+   .menu-item{
+    height: 300px;
+   }
+   .menu-item img{
+    width: 200px;
+    height: 150px;
+   }
+   .menu-item h2{
+    font-size: 1.3rem;
+   }
+  /* about */
+  .about1 {
+    flex-direction: column;
+    padding: 20px;
+    height: 550px;
+  }
+  .about1 img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .abt-info {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+  .abt-info h1{
+    font-size: 2rem;
+  }
+  .abt-info p{
+    font-size: 1.1rem;
+  }
+  .event {
+    padding: 20px;
+  }
+  .event h1{
+    font-size: 2rem;
+  }
+  .event h5{
+    font-size: 1.2rem;
+  }
+  .event p{
+    font-size: 1.1rem;
+  }
+  .our-chef {
+    flex-direction: column-reverse;
+    padding: 20px;
+    height: 550px;
+  }
+  .our-chef img {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 10px;
+  }
+  .chefs {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+  .chefs h1{
+    font-size: 2rem;
+  }
+  .chefs p{
+    font-size: 1.1rem;
+  }
+
+  /* gallery */
+
+   .our-gallery h1{
+      font-size: 2.7rem;
+   }
+  .gallery{
+   grid-template-columns: 1fr 1fr;
+  }
+  
+  .g1{
+    display: none;
+  }
+  .gallery-item{
+    left: 7px;
+  }
+  
+}

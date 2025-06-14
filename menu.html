@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Birthstone&family=Edu+SA+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <nav>
+          <h1>FoodFusion</h1>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html" target="_self">Home</a></li>
+              <li><a href="about.html" target="_self">About</a> </li>
+              <li><a href="menu.html" target="_self" class="active">Menu</a></li>
+              <li><a href="gallery.html" target="_self">Gallery</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><div class="button">
+                  <a href="index.html#bookTable">Book Now</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <div class="menu1">
+        <div class="our-menu">
+          <h1>Our Menu</h1>
+          <p>Explore the blend of flavors from around the world</p>
+        </div>
+      </div>
+
+      <div class="menu-container1">
+        <div class="menuu">
+          <h1>Main-Course</h1>
+          <div class="menu-container">
+            <div class="menu-item">
+              <img
+                src="/images/biryani.webp"
+                alt="biryani"
+                width="250px"
+                height="200px"
+              />
+              <h2>Chicken Biryani</h2>
+              <p>200/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="images/paneer tikka.png"
+                alt="paneer-tikka"
+                width="250px"
+                height="200px"
+              />
+              <h2>Paneer Tikka Masala</h2>
+              <p>200/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="images/dal-fry.jpg"
+                alt="dal-tadka"
+                width="250px"
+                height="200px"
+              />
+              <h2>Dal Tadka</h2>
+              <p>250/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="/images/chicken 65.JPG"
+                alt="chicken-65"
+                width="250px"
+                height="200px"
+              />
+              <h2>Chicken-65</h2>
+              <p>350/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="/images/masala-dosa.jpg"
+                alt="masala-dosa"
+                width="250px"
+                height="200px"
+              />
+              <h2>Masala dosa</h2>
+              <p>250/-</p>
+            </div>
+
+            <div class="menu-item">
+              <img
+                src="/images/chees bread rolls.jpg "
+                alt="bread-rolls"
+                width="250px"
+                height="200px"
+              />
+              <h2>Cheese bread rolls</h2>
+              <p>300/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="/images/burger2.jpg"
+                alt="burger"
+                width="250px"
+                height="200px"
+              />
+              <h2>Cheese Burger</h2>
+              <p>300/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="/images/chicken curry1.jpg "
+                alt="chicken-curry"
+                width="250px"
+                height="200px"
+              />
+              <h2>Chicken-curry</h2>
+              <p>250/-</p>
+            </div>
+            <div class="menu-item m1">
+              <img
+                src="/images/masala paneer.jpg "
+                alt="masala-paneer"
+                width="250px"
+                height="200px"
+              />
+              <h2>Masala-Paneer</h2>
+              <p>200/-</p>
+            </div>
+          </div>
+          <a href="" class="hero-btn1">View More</a>
+          <h1>Ice-Cream & Dessert</h1>
+          <div class="menu-container">
+            <div class="menu-item">
+              <img
+                src="/images/vanila.avif"
+                alt="vanila-ice-cream"
+                width="250px"
+                height="200px"
+              />
+              <h2>Vanila</h2>
+              <p>100/-</p>
+            </div>
+            <div class="menu-item">
+              <img
+                src="/images/chocolate-ice-cream.jpg"
+                alt="chocolate-ice-cream"
+                width="250px"
+                height="200px"
+              />
+              <h2>Chocolate Ice Cream</h2>
+              <p>150/-</p>
+            </div>
+            <div class="menu-item m1">
+              <img
+                src="/images/Strawberry-Ice-Cream.jpg"
+                alt="Strawberry-Ice-Cream"
+                width="250px"
+                height="200px"
+              />
+              <h2>Strawberry</h2>
+              <p>120/-</p>
+            </div>
+          </div>
+          <a href="" class="hero-btn1">View More</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>About FoodFusion</h2>
+          <p>
+            FoodFusion is a culinary journey that brings together<br />
+            flavors from around the world.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Phone: +91 9876543210</p>
+          <p>Email: foodfusion@gmail.com</p>
+          <p>Address: 123, Sector 12, Nagpur, India</p>
+        </div>
+        <div class="footer-section">
+          <h2>Follow Us</h2>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 FoodFusion. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.classList.add("show");
+      }
+
+      function hideMenu() {
+        navLinks.classList.remove("show");
+      }
+
+      // Add this to close the menu when a link is clicked
+      var links = document.querySelectorAll("#navLinks a");
+      links.forEach(function (link) {
+        link.addEventListener("click", function () {
+          navLinks.classList.remove("show");
+        });
+      });
+    </script>
+  </body>
+</html>
