@@ -4,7 +4,8 @@ var navLinks = document.getElementById("navLinks");
         navLinks.classList.add("show");
       }
 
-      function hideMenu() {
+      function hideMenu() 
+      {
         navLinks.classList.remove("show");
       }
 
