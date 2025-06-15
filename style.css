@@ -175,6 +175,8 @@ nav .fa{
    margin-top: 50px;
 }
 .welcome1 p{
+  /* border: 2px solid black; */
+ 
    font-size: 1.4rem;
    margin-top: 10px;
 }
@@ -508,7 +510,7 @@ footer {
 }
 
 .event h1 {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   margin-bottom: 20px;
   color: orange;
 }
@@ -535,7 +537,7 @@ footer {
 .chefs {
   width: 50%;
   padding: 20px;
-  margin-left: 160px;
+  margin-left: 40px;
 }
 
 .chefs h1 {
@@ -544,11 +546,11 @@ footer {
   color: orange;
 }
 .chefs p{
-   font-size: 1.5rem;
+   font-size: 1.5rem; 
 }
 
 .our-chef img {
-  width: 40%;
+  width: 42%;
   height: 400px;
   object-fit: cover;
   border-radius: 10px;
